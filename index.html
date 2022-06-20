@@ -11,7 +11,7 @@
 body {
   font-family: Helvetica, Arial;
   margin: 0;
-  background-color: #ffeff5;
+  background-color: transparent;
 }
 
 #app-cover {
@@ -30,7 +30,7 @@ body {
   right: -30px;
   bottom: -30px;
   left: -30px;
-  background-image: url("https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg");
+  background-color: transparent;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
@@ -337,11 +337,11 @@ body {
     </div>
     <div id="player-content">
       <div id="album-art">
-        <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg" class="active" id="_1">
-        <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_2.jpg" id="_2">
-        <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_3.jpg" id="_3">
-        <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_4.jpg" id="_4">
-        <img src="https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_5.jpg" id="_5">
+        <img src="https://raw.githubusercontent.com/tokitop/music-widget-assets/main/y81dgb.png" class="active" id="_1">
+        <img src="https://raw.githubusercontent.com/tokitop/music-widget-assets/main/0f1dff16a08aa0f826d7be49130d00ec.png" id="_2">
+        <img src="https://raw.githubusercontent.com/tokitop/music-widget-assets/main/20220618_185320.png" id="_3">
+        <img src="https://raw.githubusercontent.com/tokitop/music-widget-assets/main/20220618_185842.png" id="_4">
+        <img src="https://raw.githubusercontent.com/tokitop/music-widget-assets/main/20220618_190025.png" id="_5">
         <div id="buffer-box">Buffering ...</div>
       </div>
       <div id="player-controls">
@@ -398,26 +398,26 @@ body {
     buffInterval = null,
     tFlag = false,
     albums = [
-      "Dawn",
-      "Me & You",
-      "Electro Boy",
-      "Home",
-      "Proxy (Original Mix)"
+      "adhd relief",
+      "adhd relief",
+      "adhd relief",
+      "adhd relief",
+      "adhd relief"
     ],
     trackNames = [
-      "Skylike - Dawn",
-      "Alex Skrindo - Me & You",
-      "Kaaze - Electro Boy",
-      "Jordan Schor - Home",
-      "Martin Garrix - Proxy"
+      "ambient noise - adhd vision",
+      "acnh + rain - fairie noa",
+      "for stress - sunshine",
+      "cuppy lofi mix - feardog",
+      "chill/jazzhope mix - lofi and chill"
     ],
     albumArtworks = ["_1", "_2", "_3", "_4", "_5"],
     trackUrl = [
-      "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/2.mp3",
-      "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/1.mp3",
-      "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/3.mp3",
-      "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/4.mp3",
-      "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/music/5.mp3"
+      "https://www.dropbox.com/s/s75azan107xbivm/ADHD%20Relief%20-%20Ambient%20White%20Noise.mp3",
+      "https://www.dropbox.com/s/u23qawtg5xx6f4x/Relaxing%20Animal%20Crossing%20music%20_%20rain%20sounds%20%E2%99%A1.mp3",
+      "https://www.dropbox.com/s/mowpv0xqli758vj/Music%20for%20when%20you%20are%20stressed.mp3",
+      "https://www.dropbox.com/s/ncbob5ft0ifh6h9/Cuppy%20~%20Lofi%20Hip%20Hop%20Mix.mp3",
+      "https://www.dropbox.com/s/ohawov2zgfoqb00/1%20Hour%20Chill%20Aesthetic%20Lofi%20Mix%20For%20Relaxation%20and%20Sleeping%2C%20vol%202%20%28Chillhop%2C%20Jazzhop%29.mp3"
     ],
     playPreviousTrackButton = $("#play-previous"),
     playNextTrackButton = $("#play-next"),
